@@ -1,0 +1,44 @@
+.hide{
+    display: none; 
+} 
+.show {
+    display: inline;
+}
+
+
+.feed {
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    
+} 
+.feed button {
+    margin: 15px;
+    border: none; 
+    background-color: white;
+    font-weight: 700;
+}
+.feed button:hover{
+    text-decoration: underline;
+}
+
+.feedPost {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto; 
+    border: 1px solid black;  
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 15px; 
+}
+.feedPost h2 {
+    text-align: justify;
+    padding-bottom: 15px;
+    font-weight: 800;
+}
+.feedPost a:link{
+    color: black;
+
+}
+.feedPost a:visited{
+    color: black;
+}
